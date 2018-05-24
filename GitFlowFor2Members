@@ -1,0 +1,23 @@
+Gitflow for a team of 2 members, Aris and Takis.
+Project Name: Test
+
+1.	Aris creates a new repository with the name test. The master branch exists by default
+2.	Aris clones the project from cloud git repo (eg Github) to his local computer.
+3.	Aris has his local repo with local master and on the cloud is the origin/master
+4.	Aris makes some code changes and creates some new classes
+5.	Aris commits these changes with a message: “some changes”
+6.	Takis clones the code from origin/master and creates his local repo with the local master
+7.	Takis creates a branch from master with the name: TakisAwesome
+8.	Takis makes some changes and class additions to TakisAwesome branch
+9.	Takis commits these changes and pushes the branch to origin/TakisAwesome (cloud)
+10.	In the meantime, Aris makes new changes and additions in his master and pushes them to origin/master
+11.	Takis must now switch to master branch in his local repo
+12.	Takis pulls origin/master to refresh his local master.
+13.	Now Takis has all the changes made to master from Aris.
+14.	Takis switches back to TakisAwesome
+15.	Takis merges all changes from master onto TakisAwesome.
+16.	Some conflicts may arise, Takis solves them by selecting the code that should remain.
+17.	Takis switches back to master
+18.	Takis merges TakisAwesome (which is now refreshed) onto master. No conflicts should arise
+19.	Takis pushes master to origin/master (cloud)
+20.	Aris pulls master to take Takis’ changes 
